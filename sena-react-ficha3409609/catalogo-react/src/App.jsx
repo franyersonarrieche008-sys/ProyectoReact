@@ -23,9 +23,9 @@ export default function App() {
     <div className="app-container">
       {/* Header de la Aplicación */}
       <header className="main-header">
-        <h1>Catálogo de Hardware Tech</h1>
+        <h1>Catálogo de Productos</h1>
         <div className="cart-badge">
-          🛒 Carrito: <span>{carrito.length}</span>
+          Carrito: <span>{carrito.length}</span>
         </div>
       </header>
 

@@ -17,7 +17,7 @@ export default function Producto({
 
   return (
     <article className={`product-card ${destacado ? 'featured' : ''}`}>
-      {destacado && <span className="badge-featured">Destacado ⭐</span>}
+      {destacado && <span className="badge-featured">Destacado</span>}
       
       <button 
         className={`fav-btn ${favorito ? 'active' : ''}`}
